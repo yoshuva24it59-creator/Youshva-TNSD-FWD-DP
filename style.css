@@ -1,0 +1,203 @@
+{
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+
+  background: #f4f4f9;
+
+  color: #333;
+
+  line-height: 1.6;
+
+}
+
+header {
+
+  background: #0077b6;
+
+  color: white;
+
+  padding: 20px 0;
+
+  text-align: center;
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 100;
+
+}
+
+header h1 {
+
+  font-size: 2.2rem;
+
+}
+
+header p {
+
+  font-size: 1.2rem;
+
+  margin-top: 5px;
+
+}
+
+nav {
+
+  margin-top: 15px;
+
+}
+
+nav a {
+
+  text-decoration: none;
+
+  color: white;
+
+  margin: 0 15px;
+
+  font-weight: bold;
+
+  transition: color 0.3s;
+
+}
+
+nav a:hover {
+
+  color: #90e0ef;
+
+}
+
+section {
+
+  padding: 50px 20px;
+
+  max-width: 900px;
+
+  margin: auto;
+
+}
+
+section h2 {
+
+  text-align: center;
+
+  margin-bottom: 20px;
+
+  color: #0077b6;
+
+}
+
+.about p {
+
+  font-size: 1.1rem;
+
+  text-align: center;
+
+}
+
+.skills ul {
+
+  list-style: none;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+  gap: 15px;
+
+  padding: 0;
+
+}
+
+.skills li {
+
+  background: #caf0f8;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  text-align: center;
+
+  font-weight: bold;
+
+}
+
+.projects .card {
+
+  background: white;
+
+  padding: 20px;
+
+  margin: 15px 0;
+
+  border-radius: 10px;
+
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+  transition: transform 0.3s;
+
+}
+
+.projects .card:hover {
+
+  transform: scale(1.05);
+
+}
+
+footer {
+
+  background: #0077b6;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px;
+
+  margin-top: 30px;
+
+}
+
+#topBtn {
+
+  display: none;
+
+  position: fixed;
+
+  bottom: 20px;
+
+  right: 20px;
+
+  background: #0077b6;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px 15px;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  font-size: 18px;
+
+}
+
+#topBtn:hover {
+
+  background: #023e8a;
+
+}
